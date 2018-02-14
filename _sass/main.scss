@@ -45,8 +45,6 @@ a { color:$my-blue; }
 		font-family: 'Lobster', cursive;
 		font-size: 80px;
 		margin-left: 0;
-
-
 	}
 
 	a:hover {
@@ -55,6 +53,7 @@ a { color:$my-blue; }
 	}
 
 	.nav-item, .nav-link {
+		padding-right: 20px;
 		a {
 			color: $my-light-blue !important;
 		}
