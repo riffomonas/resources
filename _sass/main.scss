@@ -75,6 +75,7 @@ a { color:$my-blue; }
 
 .index {
 	padding: 20px 20px;
+
 	p{
 		line-height: 150%;
 		font-size: 20px;
@@ -82,7 +83,25 @@ a { color:$my-blue; }
 
 	a {
 		color: $my-primary-contrast;
-		// text-decoration: none;
+		text-decoration: underline;
+	}
+	a:hover {
+		color: $my-secondary-contrast;
 	}
 
+	.blurb {
+		font-size: 18px;
+		li {
+			font-size: 14px;
+		}
+	}
+
+	.double-column{
+		margin-top: 40px;
+	}
+}
+
+
+.tutorials {
+	color: $my-primary-contrast;
 }
