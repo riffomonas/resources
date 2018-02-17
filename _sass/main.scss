@@ -105,3 +105,71 @@ a { color:$my-blue; }
 .tutorials {
 	color: $my-primary-contrast;
 }
+
+
+.lesson {
+	color: black;
+	font-size: 1.1em;
+
+	h1, h2, h3, h4, h5 {
+		color: $my-blue;
+	}
+
+	h2 {
+		padding-top: 30px;
+	}
+
+	h3 {
+		padding-top: 15px;
+	}
+
+	tt, code, pre {
+	   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+	}
+
+	pre code {
+	  display: block;
+		padding: 0.5em;
+	}
+
+	code {
+	  font-size: 92%;
+	  border: 1px solid #ccc;
+	  background-color: #F8F8F8;
+	}
+
+	table, td, th {
+	  border: none;
+	}
+
+	blockquote {
+	   color:#666666;
+	   margin:0;
+	   padding-left: 1em;
+	   border-left: 0.5em #EEE solid;
+	}
+
+	hr {
+	   height: 0px;
+	   border-bottom: none;
+	   border-top-width: thin;
+	   border-top-style: dotted;
+	   border-top-color: #999999;
+	}
+
+	img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+
+	input {
+		background-color: $my-blue;
+		border: 1px solid $my-blue;
+		border-radius: 5px;
+		color: white;
+		padding: 3px 10px;
+		margin-bottom: 20px;
+	}
+}
