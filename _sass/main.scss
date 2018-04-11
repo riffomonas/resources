@@ -139,8 +139,17 @@ a { color:$my-blue; }
 	}
 
 	table, td, th {
-	  border: none;
+	  border: solid black 2px;
+		text-align: center;
 	}
+
+	table {
+		margin: 0 auto;
+	}
+	td,th {
+		padding: 10px;
+	}
+
 
 	blockquote {
 	   color:#666666;
