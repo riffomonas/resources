@@ -139,8 +139,17 @@ a { color:$my-blue; }
 	}
 
 	table, td, th {
-	  border: none;
+	  border: solid black 2px;
+		text-align: center;
 	}
+
+	table {
+		margin: 0 auto;
+	}
+	td,th {
+		padding: 10px;
+	}
+
 
 	blockquote {
 	   color:#666666;
@@ -197,5 +206,5 @@ a { color:$my-blue; }
 
 .fa-youtube {
 	padding-left: 1px;
-	color: rgb(40, 87, 214);
+	color: $my-blue;
 }
