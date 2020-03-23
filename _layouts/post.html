@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="post post-content">
+
+  <h1 id="{{page.title | slugify }}">{{ page.title }}</h1>
+
+  <p class="meta">{{ page.date | date: "%B %-d, %Y" }} • {% include time.html %}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • {% include reading_speed.html %} • {% include github_link.html %} • {% include twitter_plug.html %}</p>
+
+  {{ content }}
+
+  {% if page.comments %}
+  	{% include comments.html %}
+  {% endif %}
+
+</div>
