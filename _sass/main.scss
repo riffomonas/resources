@@ -76,6 +76,17 @@ a { color:$my-blue; }
 .index {
 	padding: 20px 20px;
 
+	h2{
+		margin-top: 40px;
+		font-size: 35px;
+	}
+
+	h3{
+		font-size: 25px;
+		font-weight: 800;
+		margin-top: 35px;
+	}
+
 	p{
 		line-height: 150%;
 		font-size: 20px;
@@ -125,21 +136,6 @@ a { color:$my-blue; }
 
 	h3 {
 		padding-top: 15px;
-	}
-
-	tt, code, pre {
-	   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
-	}
-
-	pre code {
-	  display: block;
-		padding: 0.5em;
-	}
-
-	code {
-	  font-size: 92%;
-	  border: 1px solid #ccc;
-	  background-color: #F8F8F8;
 	}
 
 	table, td, th {
@@ -211,4 +207,25 @@ a { color:$my-blue; }
 .fa-youtube {
 	padding-left: 1px;
 	color: $my-blue;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+pre code {
+  display: block;
+	padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+  background-color: #F8F8F8;
 }
