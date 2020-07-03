@@ -228,8 +228,10 @@ code {
   font-size: 92%;
   border: 1px solid #ccc;
   background-color: #F8F8F8;
+	white-space: pre;
+	word-break: normal;
+	word-wrap: normal;
 }
-
 
 
 
@@ -265,12 +267,7 @@ code {
 .post-content h3 { margin-top: 2rem; font-size: 25px;}
 
 .post-content p { color: black; font-size: 18px; }
-
-code {
-	white-space: pre;
-	word-break: normal;
-	word-wrap: normal;
-}
+.post-content li { color: black; font-size: 18px; }
 
 
 .tldr {
