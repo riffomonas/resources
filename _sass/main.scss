@@ -111,6 +111,15 @@ a { color:$my-blue; }
 	.double-column{
 		margin-top: 40px;
 	}
+
+	.baloon {
+		background-color: #EEE;
+		padding: 30px;
+		margin-bottom: 15px;
+		border-radius:15px;
+		font-size:30px;
+		color: $my-primary-contrast;
+	}
 }
 
 
@@ -294,4 +303,71 @@ code {
 	width : 350px;
 	margin : 15px 15px 15px 15px;
 	float : right;
+}
+
+.workshop {
+	h1{
+		color: $my-secondary-contrast;
+	}
+
+	h2{
+		margin-top: 40px;
+		font-size: 35px;
+		color: $my-secondary-contrast;
+	}
+
+	h3{
+		font-size: 25px;
+		font-weight: 800;
+		margin-top: 35px;
+		color: $my-secondary-contrast;
+	}
+
+	p{
+		line-height: 150%;
+		font-size: 25px;
+	}
+
+	a {
+		color: $my-primary-contrast;
+		text-decoration: underline;
+	}
+	a:hover {
+		color: $my-secondary-contrast;
+	}
+
+	li {
+		font-size: 20px;
+	}
+
+	.blurb {
+		font-size: 18px;
+		li {
+			font-size: 14px;
+		}
+	}
+
+	.double-column{
+		margin-top: 40px;
+	}
+}
+
+.payment {
+	margin-top: 50px;
+
+	h2 {
+		margin-top: 0px;
+	}
+
+	label {
+	  font-size: 24px;
+		padding-top: 10px;
+	}
+
+	input[type=text] {
+	  border: 2px solid #AAAAAA;
+	  border-radius: 4px;
+		padding-left: 5px;
+		width: 80%;
+	}
 }
